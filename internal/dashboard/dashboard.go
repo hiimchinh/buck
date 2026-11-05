@@ -4,7 +4,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // PRFilters controls which PRs to include.

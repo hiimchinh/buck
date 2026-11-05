@@ -183,9 +183,9 @@ type PaginatedCommits struct {
 
 // APIError represents an error response from Bitbucket.
 type APIError struct {
-	Error   APIErrorDetail `json:"error"`
-	Type    string         `json:"type"`
-	Status  int            `json:"status"`
+	Error  APIErrorDetail `json:"error"`
+	Type   string         `json:"type"`
+	Status int            `json:"status"`
 }
 
 // APIErrorDetail holds the error message and detail.

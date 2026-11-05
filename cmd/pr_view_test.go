@@ -3,7 +3,7 @@ package cmd
 import (
 	"testing"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 func TestFormatCommitHash(t *testing.T) {

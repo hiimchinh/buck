@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 	"github.com/spf13/cobra"
 )
 

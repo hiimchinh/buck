@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/chinhstringee/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/config"
 	"github.com/spf13/cobra"
 )
 

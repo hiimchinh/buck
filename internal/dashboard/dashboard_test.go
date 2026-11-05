@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // hostRewriteTransport rewrites all requests to the test server.

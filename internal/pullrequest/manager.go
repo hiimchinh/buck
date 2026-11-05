@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // PRManager orchestrates PR operations (merge, decline, approve, reviewers) across repos.

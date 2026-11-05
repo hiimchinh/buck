@@ -8,7 +8,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -w -X github.com/chinhstringee/buck/cmd.Version={{.Version}}
+      - -s -w -X github.com/hiimchinh/buck/cmd.Version={{.Version}}
     goos:
       - darwin
       - linux
@@ -22,10 +22,10 @@ archives:
 brews:
   - name: buck
     repository:
-      owner: chinhstringee
+      owner: hiimchinh
       name: homebrew-tap
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
-    homepage: https://github.com/chinhstringee/buck
+    homepage: https://github.com/hiimchinh/buck
     description: Multi-repo orchestration tool for Bitbucket
     license: MIT
 

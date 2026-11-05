@@ -9,7 +9,7 @@ import (
 	"unicode"
 
 	"github.com/fatih/color"
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // Result holds the outcome of a PR creation for one repo.
@@ -141,7 +141,7 @@ func PrintResults(results []Result) {
 // Shared color helpers.
 func colorGreen() func(a ...interface{}) string { return color.New(color.FgGreen).SprintFunc() }
 func colorRed() func(a ...interface{}) string   { return color.New(color.FgRed).SprintFunc() }
-func colorBold() func(a ...interface{}) string   { return color.New(color.Bold).SprintFunc() }
+func colorBold() func(a ...interface{}) string  { return color.New(color.Bold).SprintFunc() }
 
 // ticketPattern matches JIRA-style ticket numbers like SPT-1298, PROJ-42.
 var ticketPattern = regexp.MustCompile(`([A-Z]+)-(\d+)`)

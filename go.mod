@@ -1,4 +1,4 @@
-module github.com/chinhstringee/buck
+module github.com/hiimchinh/buck
 
 go 1.25.0
 

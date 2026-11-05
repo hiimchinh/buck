@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/hiimchinh/buck/internal/auth"
+	"github.com/hiimchinh/buck/internal/config"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/auth"
-	"github.com/chinhstringee/buck/internal/config"
 )
 
 var loginCmd = &cobra.Command{

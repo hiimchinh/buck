@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/fatih/color"
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // Default branches that should never be deleted.

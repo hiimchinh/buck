@@ -6,9 +6,9 @@ import (
 
 	"github.com/charmbracelet/huh"
 	"github.com/fatih/color"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
-	"github.com/chinhstringee/buck/internal/matcher"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/matcher"
 )
 
 // resolveTargetRepos determines which repos to target based on the given flags.

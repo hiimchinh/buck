@@ -19,20 +19,20 @@ Multi-repo orchestration tool for Bitbucket Cloud. Create branches and pull requ
 **Homebrew** (macOS / Linux):
 
 ```bash
-brew tap chinhstringee/tap
+brew tap hiimchinh/tap
 brew install buck
 ```
 
 **Go** (requires Go 1.25+):
 
 ```bash
-go install github.com/chinhstringee/buck@latest
+go install github.com/hiimchinh/buck@latest
 ```
 
 **From source**:
 
 ```bash
-git clone https://github.com/chinhstringee/buck.git
+git clone https://github.com/hiimchinh/buck.git
 cd buck && go build -o buck
 ```
 

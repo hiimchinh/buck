@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // branchStatusRepoConfig describes one repo's canned server behavior for

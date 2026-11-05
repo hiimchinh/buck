@@ -9,9 +9,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
-	"github.com/chinhstringee/buck/internal/gitutil"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/gitutil"
 )
 
 // prContext holds the resolved context for a PR subcommand.
