@@ -23,6 +23,16 @@ brew tap hiimchinh/tap
 brew install buck
 ```
 
+> **Moved from `chinhstringee`:** buck now lives under `hiimchinh`. If you installed it from the old tap, switch once:
+>
+> ```bash
+> brew uninstall buck
+> brew untap chinhstringee/tap
+> brew install hiimchinh/tap/buck
+> ```
+>
+> If you installed with Go, run `go install github.com/hiimchinh/buck@latest`.
+
 **Go** (requires Go 1.25+):
 
 ```bash
