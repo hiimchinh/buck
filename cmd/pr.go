@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/gitutil"
+	"github.com/hiimchinh/buck/internal/pullrequest"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
-	"github.com/chinhstringee/buck/internal/gitutil"
-	"github.com/chinhstringee/buck/internal/pullrequest"
 )
 
 var (

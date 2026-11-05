@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/pullrequest"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/pullrequest"
 )
 
 var prReviewersFlagAdd string

@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **buck** — Multi-repo orchestration tool for Bitbucket Cloud. Create branches and pull requests across multiple repositories simultaneously. Supports API token (default) and OAuth 2.0 with PKCE authentication.
 
-- **Module**: `github.com/chinhstringee/buck`
+- **Module**: `github.com/hiimchinh/buck`
 - **Go version**: 1.25.0
 
 ## Commands

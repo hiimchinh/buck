@@ -187,7 +187,7 @@ func TestListRepositories_SinglePage(t *testing.T) {
 	defer srv.Close()
 
 	c := &Client{
-		httpClient:    srv.Client(),
+		httpClient:  srv.Client(),
 		authApplier: mockAuthApplier("tok"),
 	}
 
@@ -225,7 +225,7 @@ func TestListRepositories_Pagination(t *testing.T) {
 	// We use a real Client with the test server by making the first request
 	// go to srv.URL directly — testing doRequest + pagination loop independently.
 	c := &Client{
-		httpClient:    srv.Client(),
+		httpClient:  srv.Client(),
 		authApplier: mockAuthApplier("tok"),
 	}
 

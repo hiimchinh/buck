@@ -7,9 +7,9 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
-	"github.com/chinhstringee/buck/internal/dashboard"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/dashboard"
 )
 
 var (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
 )
 
 var listCmd = &cobra.Command{

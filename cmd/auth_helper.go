@@ -3,9 +3,9 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/chinhstringee/buck/internal/auth"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/auth"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
 )
 
 // buildAuthApplier creates the appropriate AuthApplier based on config.

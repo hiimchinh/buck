@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
+	"github.com/hiimchinh/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/config"
+	"github.com/hiimchinh/buck/internal/creator"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/bitbucket"
-	"github.com/chinhstringee/buck/internal/config"
-	"github.com/chinhstringee/buck/internal/creator"
 )
 
 var (
@@ -93,4 +93,3 @@ func runCreate(cmd *cobra.Command, args []string) error {
 
 	return nil
 }
-

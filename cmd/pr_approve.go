@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
+	"github.com/hiimchinh/buck/internal/pullrequest"
 	"github.com/spf13/cobra"
-	"github.com/chinhstringee/buck/internal/pullrequest"
 )
 
 var prApproveCmd = &cobra.Command{

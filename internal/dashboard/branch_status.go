@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chinhstringee/buck/internal/bitbucket"
+	"github.com/hiimchinh/buck/internal/bitbucket"
 )
 
 // Containment reports whether a branch's head is reachable from one target
